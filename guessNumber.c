@@ -7,7 +7,7 @@ int main() {
     
     // generate random number
     srand(time(0)); 
-    secretNum = rand() % 100 + 1; // rand() % 100 gives 0-99. We add 1 to get a range of 1-100
+    secretNum = rand() % 101; // rand() % 100 gives 0-99. We add 1 to get a range of 1-100
 
     printf("Guess the number between 1-100\nDon't worry I'll help you.");
 
